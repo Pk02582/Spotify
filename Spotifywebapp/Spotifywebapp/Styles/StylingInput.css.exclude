@@ -1,0 +1,57 @@
+﻿
+
+
+.ApplyCSS input[type="text"] {
+	background: url('..MenuStyle/img/lightInputBG.png') 0 0 repeat-x;
+	height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e1e5e9;
+	width: auto;
+	padding: 0 10px;
+}
+.ApplyCSS input[type="text"]:hover {
+	border: 1px solid #ADD8E6;
+}
+
+
+.ApplyCSS select {
+	background: url('..MenuStyle/img/lightInputBG.png') 0 0 repeat-x;
+	height: 30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e1e5e9;
+	width: auto;
+	padding: 0 10px;
+}
+.ApplyCSS select:hover {
+	border: 1px solid #ADD8E6;
+}
+
+
+
+.ApplyCSS textarea {
+	background: url('..MenuStyle/img/lightTextareaBG.png') 0 0 repeat-x;
+	height: 179px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e1e5e9;
+	width: 570px;
+	padding: 10px 10px 0 10px;
+}
+
+.ApplyCSS textarea:hover {
+	border: 1px solid #b8babd;
+}
+
+.ApplyCSS label {
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 10px;
+}

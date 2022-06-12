@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{890ECC57-798B-444D-9AFC-F776445973FC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spotifywebapp</RootNamespace>
+    <AssemblyName>Spotifywebapp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External Refrences\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddSongs.aspx" />
+    <Content Include="External Refrences\AjaxControlToolkit.dll" />
+    <Content Include="Images\FilledStar.gif" />
+    <Content Include="Images\Star.gif" />
+    <Content Include="Images\WaitingStar.gif" />
+    <Content Include="Songs.aspx" />
+    <Content Include="Scripts\bootbox.min.js" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-icons_454545_256x240.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-icons_888888_256x240.png" />
+    <Content Include="Scripts\DataTable\Custom\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\DataTable\Custom\jquery-ui.css" />
+    <Content Include="Scripts\DataTable\Custom\jquery-ui.js" />
+    <Content Include="Scripts\DataTable\media\css\dataTables.responsive.css" />
+    <Content Include="Scripts\DataTable\media\css\jquery.dataTables.css" />
+    <Content Include="Scripts\DataTable\media\css\jquery.dataTables.min.css" />
+    <Content Include="Scripts\DataTable\media\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Scripts\DataTable\media\images\favicon.ico" />
+    <Content Include="Scripts\DataTable\media\images\sort_asc.png" />
+    <Content Include="Scripts\DataTable\media\images\sort_asc_disabled.png" />
+    <Content Include="Scripts\DataTable\media\images\sort_both.png" />
+    <Content Include="Scripts\DataTable\media\images\sort_desc.png" />
+    <Content Include="Scripts\DataTable\media\images\sort_desc_disabled.png" />
+    <Content Include="Scripts\DataTable\media\js\dataTables.responsive.js" />
+    <Content Include="Scripts\DataTable\media\js\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTable\media\js\jquery.dataTables.min.js" />
+    <Content Include="Scripts\DataTable\media\js\jquery.js" />
+    <Content Include="Scripts\ErrorJs.js" />
+    <Content Include="Scripts\FileUpload\bootstrap.fd.css" />
+    <Content Include="Scripts\FileUpload\bootstrap.fd.js" />
+    <Content Include="Scripts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Scripts\font-awesome\css\sb-admin.css" />
+    <Content Include="Scripts\font-awesome\Fonts\fontawesome-webfont.svg" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\Jsapi.js" />
+    <Content Include="Scripts\LoginPage\style.css" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrap-multiselect.css" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrap-multiselect.js" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrap-theme.min.css" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrap.min.css" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrap.min.js" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrapValidator.min.css" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrapValidator.min.js" />
+    <Content Include="Artist.aspx" />
+    <Content Include="Styles\Bootsrap_Custom.css" />
+    <Content Include="Styles\ErrorPage.css" />
+    <Content Include="Styles\flexslider.css" />
+    <Content Include="Styles\fonts\font-awesome.min.css" />
+    <Content Include="Styles\fonts\fontawesome-webfont.svg" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\fonts\main.css" />
+    <Content Include="Styles\logo-nav.css" />
+    <Content Include="Styles\MyStylesheet.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\StyleSheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSongs.aspx.cs">
+      <DependentUpon>AddSongs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSongs.aspx.designer.cs">
+      <DependentUpon>AddSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\DBConnectionClass.cs" />
+    <Compile Include="Songs.aspx.cs">
+      <DependentUpon>Songs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Songs.aspx.designer.cs">
+      <DependentUpon>Songs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpage.Master.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpage.Master.designer.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Artist.aspx.cs">
+      <DependentUpon>Artist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Artist.aspx.designer.cs">
+      <DependentUpon>Artist.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masterpage.Master" />
+    <Content Include="Scripts\DataTable\Custom\jquery-ui.min.js.exclude" />
+    <Content Include="Scripts\DataTable\Custom\jquery-ui.theme.min.css.exclude" />
+    <Content Include="Scripts\DataTable\media\images\Sorting icons.psd" />
+    <Content Include="Scripts\font-awesome\Fonts\fontawesome-webfont.eot" />
+    <Content Include="Scripts\font-awesome\Fonts\fontawesome-webfont.ttf" />
+    <Content Include="Scripts\font-awesome\Fonts\fontawesome-webfont.woff" />
+    <Content Include="Scripts\font-awesome\Fonts\fontawesome-webfont.woff2" />
+    <Content Include="Scripts\font-awesome\Fonts\FontAwesome.otf" />
+    <Content Include="Scripts\font-awesome\Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Scripts\font-awesome\Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrapValidator.css.exclude" />
+    <Content Include="Scripts\Multiselect_Dropdown\bootstrapValidator.js.exclude" />
+    <Content Include="Scripts\Multiselect_Dropdown\validator.js.exclude" />
+    <Content Include="Styles\bootstrap.min.css.exclude" />
+    <Content Include="Styles\CheckBox\stylesheet-pure-css.css.exclude" />
+    <Content Include="Styles\font-awesome.min.css.exclude" />
+    <Content Include="Styles\fonts\.DS_Store" />
+    <Content Include="Styles\fonts\fontawesome-webfont.eot" />
+    <Content Include="Styles\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Styles\fonts\fontawesome-webfont.woff" />
+    <Content Include="Styles\fonts\FontAwesome.otf" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.eot.exclude" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.svg.exclude" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.ttf.exclude" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.woff.exclude" />
+    <Content Include="Styles\fonts\glyphicons-halflings-regular.woff2.exclude" />
+    <Content Include="Styles\modern-business.css.exclude" />
+    <Content Include="Styles\style.css.exclude" />
+    <Content Include="Styles\styles.css.exclude" />
+    <Content Include="Styles\StylingInput.css.exclude" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\StylingForm\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58898/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

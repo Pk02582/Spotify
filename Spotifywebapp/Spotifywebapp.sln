@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotifywebapp", "Spotifywebapp\Spotifywebapp.csproj", "{890ECC57-798B-444D-9AFC-F776445973FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890ECC57-798B-444D-9AFC-F776445973FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890ECC57-798B-444D-9AFC-F776445973FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890ECC57-798B-444D-9AFC-F776445973FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890ECC57-798B-444D-9AFC-F776445973FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

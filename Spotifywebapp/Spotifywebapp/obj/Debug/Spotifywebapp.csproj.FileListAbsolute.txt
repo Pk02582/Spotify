@@ -1,0 +1,15 @@
+C:\Spotifywebapp\Spotifywebapp\bin\Spotifywebapp.dll
+C:\Spotifywebapp\Spotifywebapp\bin\Spotifywebapp.pdb
+C:\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.csprojResolveAssemblyReference.cache
+C:\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.dll
+C:\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.pdb
+C:\Spotifywebapp\Spotifywebapp\bin\AjaxControlToolkit.dll
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\bin\Spotifywebapp.dll.config
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\bin\Spotifywebapp.dll
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\bin\Spotifywebapp.pdb
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\bin\AjaxControlToolkit.dll
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.csprojAssemblyReference.cache
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.csproj.CoreCompileInputs.cache
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.csproj.CopyComplete
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.dll
+F:\Spotifywebapp_2\Spotifywebapp\Spotifywebapp\obj\Debug\Spotifywebapp.pdb
